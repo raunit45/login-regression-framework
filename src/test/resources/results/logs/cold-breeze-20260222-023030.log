@@ -1,0 +1,18 @@
+2026-02-22 02:30:30 [INFO] Run started. runId=cold-breeze-20260222-023030
+2026-02-22 02:30:31 [INFO] START testId=TC01 name=Empty email on continue flow=EMAIL_ONLY
+2026-02-22 02:30:58 [INFO] Email input typedLength=0
+2026-02-22 02:31:08 [INFO] END testId=TC01 status=FAIL stage=EMAIL_ONLY
+2026-02-22 02:31:08 [INFO] Evidence screenshot=src\test\resources\results\screenshots\cold-breeze-20260222-023030\loginFormRegression.png
+2026-02-22 02:31:16 [INFO] START testId=TC02 name=Invalid email format text flow=EMAIL_ONLY
+2026-02-22 02:31:41 [INFO] Email input typedLength=12
+2026-02-22 02:31:51 [INFO] END testId=TC02 status=PASS stage=EMAIL_ONLY
+2026-02-22 02:31:54 [INFO] START testId=TC03 name=SQLi pattern email flow=EMAIL_ONLY
+2026-02-22 02:32:19 [INFO] Email input typedLength=8
+2026-02-22 02:32:29 [INFO] END testId=TC03 status=PASS stage=EMAIL_ONLY
+2026-02-22 02:32:33 [INFO] START testId=TC04 name=Email then empty password flow=EMAIL_PASS
+2026-02-22 02:32:59 [INFO] Email input typedLength=19
+2026-02-22 02:33:09 [INFO] END testId=TC04 status=PASS stage=EMAIL_PASS
+2026-02-22 02:33:13 [INFO] START testId=TC05 name=Email then wrong password flow=EMAIL_PASS
+2026-02-22 02:33:51 [WARN] Email step not ready after initial navigation. Retrying direct sign-in URL: https://www.amazon.com/ap/signin
+2026-02-22 02:33:51 [INFO] Evidence screenshot=
+2026-02-22 02:33:51 [INFO] Run finished. runId=cold-breeze-20260222-023030

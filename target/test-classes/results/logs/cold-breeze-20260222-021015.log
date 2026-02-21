@@ -1,0 +1,11 @@
+2026-02-22 02:10:15 [INFO] Run started. runId=cold-breeze-20260222-021015
+2026-02-22 02:10:17 [INFO] START testId=TC01 name=Empty email on continue flow=EMAIL_ONLY
+2026-02-22 02:10:35 [WARN] FAIL testId=TC01 reason=Email step not ready (navigation/overlay)
+2026-02-22 02:10:35 [INFO] Evidence screenshot=src\test\resources\results\screenshots\cold-breeze-20260222-021015\loginFormRegression.png
+2026-02-22 02:10:36 [INFO] START testId=TC02 name=Spaces only email flow=EMAIL_ONLY
+2026-02-22 02:10:55 [WARN] FAIL testId=TC02 reason=Email step not ready (navigation/overlay)
+2026-02-22 02:10:55 [INFO] Evidence screenshot=src\test\resources\results\screenshots\cold-breeze-20260222-021015\loginFormRegression.png
+2026-02-22 02:11:00 [INFO] START testId=TC03 name=Invalid email format short flow=EMAIL_ONLY
+2026-02-22 02:11:19 [WARN] FAIL testId=TC03 reason=Email step not ready (navigation/overlay)
+2026-02-22 02:11:19 [INFO] Evidence screenshot=src\test\resources\results\screenshots\cold-breeze-20260222-021015\loginFormRegression.png
+2026-02-22 02:11:25 [INFO] START testId=TC04 name=Invalid email format text flow=EMAIL_ONLY

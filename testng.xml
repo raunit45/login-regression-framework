@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Login Regression Suite" verbose="1" parallel="false">
+  <parameter name="configPath" value="src/test/resources/config/config.properties"/>
+  <test name="Amazon Login Regression">
+    <classes>
+      <class name="tests.LoginRegressionTest"/>
+    </classes>
+  </test>
+</suite>

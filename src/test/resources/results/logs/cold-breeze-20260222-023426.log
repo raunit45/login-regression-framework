@@ -1,0 +1,3 @@
+2026-02-22 02:34:26 [INFO] Run started. runId=cold-breeze-20260222-023426
+2026-02-22 02:34:27 [INFO] START testId=TC01 name=Empty email on continue flow=EMAIL_ONLY
+2026-02-22 02:35:55 [WARN] Email step not ready after initial navigation. Retrying direct sign-in URL: https://www.amazon.com/ap/signin

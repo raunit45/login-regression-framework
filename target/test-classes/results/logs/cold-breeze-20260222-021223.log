@@ -1,0 +1,17 @@
+2026-02-22 02:12:23 [INFO] Run started. runId=cold-breeze-20260222-021223
+2026-02-22 02:12:25 [INFO] START testId=TC01 name=Empty email on continue flow=EMAIL_ONLY
+2026-02-22 02:12:44 [WARN] FAIL testId=TC01 reason=Email step not ready (navigation/overlay)
+2026-02-22 02:12:44 [INFO] Evidence screenshot=src\test\resources\results\screenshots\cold-breeze-20260222-021223\loginFormRegression.png
+2026-02-22 02:12:45 [INFO] START testId=TC02 name=Invalid email format text flow=EMAIL_ONLY
+2026-02-22 02:13:06 [WARN] FAIL testId=TC02 reason=Email step not ready (navigation/overlay)
+2026-02-22 02:13:06 [INFO] Evidence screenshot=src\test\resources\results\screenshots\cold-breeze-20260222-021223\loginFormRegression.png
+2026-02-22 02:13:10 [INFO] START testId=TC03 name=SQLi pattern email flow=EMAIL_ONLY
+2026-02-22 02:13:29 [WARN] FAIL testId=TC03 reason=Email step not ready (navigation/overlay)
+2026-02-22 02:13:30 [INFO] Evidence screenshot=src\test\resources\results\screenshots\cold-breeze-20260222-021223\loginFormRegression.png
+2026-02-22 02:13:34 [INFO] START testId=TC04 name=Email then empty password flow=EMAIL_PASS
+2026-02-22 02:13:53 [WARN] FAIL testId=TC04 reason=Email step not ready (navigation/overlay)
+2026-02-22 02:13:53 [INFO] Evidence screenshot=src\test\resources\results\screenshots\cold-breeze-20260222-021223\loginFormRegression.png
+2026-02-22 02:14:09 [INFO] START testId=TC05 name=Email then wrong password flow=EMAIL_PASS
+2026-02-22 02:14:28 [WARN] FAIL testId=TC05 reason=Email step not ready (navigation/overlay)
+2026-02-22 02:14:29 [INFO] Evidence screenshot=src\test\resources\results\screenshots\cold-breeze-20260222-021223\loginFormRegression.png
+2026-02-22 02:14:29 [INFO] Run finished. runId=cold-breeze-20260222-021223
