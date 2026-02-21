@@ -15,3 +15,6 @@
 2026-02-22 02:45:59 [INFO] END testId=TC04 status=PASS stage=EMAIL_PASS
 2026-02-22 02:46:00 [INFO] START testId=TC05 name=Email then wrong password flow=EMAIL_PASS
 2026-02-22 02:46:11 [INFO] Email input typedLength=19
+2026-02-22 02:46:55 [INFO] END testId=TC05 status=FAIL stage=EMAIL_PASS
+2026-02-22 02:46:55 [INFO] Evidence screenshot=src\test\resources\results\screenshots\cold-breeze-20260222-024253\loginFormRegression.png
+2026-02-22 02:46:55 [INFO] Run finished. runId=cold-breeze-20260222-024253
