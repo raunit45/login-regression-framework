@@ -1,0 +1,2 @@
+2026-02-22 03:20:33 [INFO] Run started. runId=cold-breeze-20260222-032033
+2026-02-22 03:20:35 [INFO] START testId=TC01 name=Empty email on continue flow=EMAIL_ONLY

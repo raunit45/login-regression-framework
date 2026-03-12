@@ -1,0 +1,11 @@
+2026-02-22 02:54:51 [INFO] Run started. runId=cold-breeze-20260222-025451
+2026-02-22 02:54:54 [INFO] START testId=TC01 name=Empty email on continue flow=EMAIL_ONLY
+2026-02-22 02:55:05 [INFO] Email input typedLength=0
+2026-02-22 02:55:15 [INFO] END testId=TC01 status=PASS stage=EMAIL_ONLY
+2026-02-22 02:55:15 [INFO] START testId=TC02 name=Invalid email format text flow=EMAIL_ONLY
+2026-02-22 02:55:26 [INFO] Email input typedLength=12
+2026-02-22 02:55:36 [INFO] END testId=TC02 status=PASS stage=EMAIL_ONLY
+2026-02-22 02:55:36 [INFO] START testId=TC03 name=SQLi pattern email flow=EMAIL_ONLY
+2026-02-22 02:55:46 [INFO] Email input typedLength=8
+2026-02-22 02:55:56 [INFO] END testId=TC03 status=PASS stage=EMAIL_ONLY
+2026-02-22 02:55:56 [INFO] START testId=TC04 name=Email then empty password flow=EMAIL_PASS

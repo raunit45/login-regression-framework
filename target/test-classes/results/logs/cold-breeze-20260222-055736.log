@@ -1,0 +1,4 @@
+2026-02-22 05:57:36 [INFO] Run started. runId=cold-breeze-20260222-055736
+2026-02-22 05:57:38 [INFO] START testId=TC01 name=Empty email on continue flow=EMAIL_ONLY
+2026-02-22 05:57:57 [INFO] Evidence screenshot=src\test\resources\results\screenshots\cold-breeze-20260222-055736\loginFormRegression.png
+2026-02-22 05:57:59 [INFO] START testId=TC02 name=Invalid email format text flow=EMAIL_ONLY

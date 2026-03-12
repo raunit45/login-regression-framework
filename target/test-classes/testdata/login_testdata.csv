@@ -1,6 +1,0 @@
-testId,testName,flow,emailOrPhone,password,expectedOutcome,expectedMessageMode,expectedMessage
-TC01,Empty email on continue,EMAIL_ONLY,,ignored,FAIL,ANY,
-TC02,Invalid email format text,EMAIL_ONLY,not-an-email,ignored,FAIL,ANY,
-TC03,SQLi pattern email,EMAIL_ONLY,' OR 1=1 --,ignored,FAIL,ANY,
-TC04,Email then empty password,EMAIL_PASS,example@example.com,,FAIL,ANY,
-TC05,Email then wrong password,EMAIL_PASS,example@example.com,wrongpassword,FAIL,ANY,
